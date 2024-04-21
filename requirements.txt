@@ -1,0 +1,7 @@
+Flask
+Pillow
+diffusers
+transformers
+torch
+numpy
+werkzeug
