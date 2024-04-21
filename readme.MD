@@ -57,7 +57,7 @@ The server will start, and you can access the application on `localhost:5000` or
 - **Body Type**: form-data
 - **Key**: `file` (type: File)
 - **Action**: Upload an image file.
-- **Response**: Expect a JSON with a success message and the path to the processed image.
+- **Response**: Expect a JSON with a success message and the path to the processed image (uploads folder).
 
 #### Generating an Image
 - **Method**: POST
@@ -65,7 +65,7 @@ The server will start, and you can access the application on `localhost:5000` or
 - **Body Type**: raw (JSON)
 - **Content**: `{"prompt":"an owl"}`
 - **Action**: Send the request to generate an image based on the prompt.
-- **Response**: Expect a JSON with a success message and the path to the generated image.
+- **Response**: Expect a JSON with a success message and the path to the generated image (uploads folder).
 
 ## Troubleshooting
 
